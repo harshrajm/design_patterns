@@ -9,7 +9,7 @@ public class PrototypeEverydayDemo {
 		
 		String sql = "select * from movies where title = ?";
 		
-		List<String> parameters = new ArrayList<>();
+		List<String> parameters = new ArrayList<String>();
 		
 		parameters.add("Star wars");
 		
